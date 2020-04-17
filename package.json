@@ -1,0 +1,75 @@
+{
+  "name": "easy-server",
+  "version": "1.0.0",
+  "description": "A boilerplate for simple webserver",
+  "keywords": [
+    "http",
+    "webserver",
+    "express",
+    "framework"
+  ],
+  "author": {
+    "name": "Partha Mallik",
+    "email": "mallik.partha@gmail.com",
+    "url": "https://github.com/parthamallik/easy-server"
+  },
+  "homepage": "https://github.com/parthamallik/easy-server",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/parthamallik/easy-server"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "",
+    "postupdate": "",
+    "test": "mocha web/test --exit",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "bcrypt": "*",
+    "bluebird": "*",
+    "body-parser": "*",
+    "connect-debounce": "*",
+    "connect-timeout": "*",
+    "cors": "*",
+    "ejs": "*",
+    "express": "*",
+    "express-mailer": "*",
+    "install": "*",
+    "is-my-json-valid": "*",
+    "jsonwebtoken": "*",
+    "lodash": "*",
+    "passport": "*",
+    "passport-github2": "*",
+    "passport-jwt": "*",
+    "pg": "*",
+    "pg-hstore": "*",
+    "pino": "*",
+    "pino-pretty": "^3.5.0",
+    "sequelize": "*"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "chai-http": "*",
+    "mocha": "*"
+  },
+  "maintainers": [
+    {
+      "name": "Partha Mallik",
+      "email": "mallik.partha@gmail.com",
+      "url": "https://github.com/parthamallik"
+    }
+  ],
+  "contributors": [
+    {
+      "name": "Partha Mallik",
+      "email": "mallik.partha@gmail.com",
+      "url": "https://github.com/parthamallik"
+    }
+  ],
+  "bugs": {
+    "url": "https://github.com/parthamallik/easy-server/issues",
+    "email": "mallik.partha@gmail.com"
+  },
+  "license": "MIT"
+}
